@@ -11,7 +11,8 @@ camunda:
 spring:
   h2:
     console:
-      enabled: false
+      enabled: true
+      path: /h2
   datasource:
     url: 'jdbc:h2:file:./camunda-h2-database'
     username: sa
