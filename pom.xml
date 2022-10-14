@@ -13,7 +13,7 @@
     <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <spring.boot.version>2.7.1</spring.boot.version>
+    <spring.boot.version>2.7.4</spring.boot.version>
   </properties>
 
   <dependencyManagement>
@@ -28,7 +28,7 @@
       <dependency>
         <groupId>org.camunda.bpm</groupId>
         <artifactId>camunda-bom</artifactId>
-        <version>7.17.2-ee</version>
+        <version>7.18.0-ee</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
