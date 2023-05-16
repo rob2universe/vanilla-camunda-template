@@ -11,9 +11,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-    <spring.boot.version>2.7.6</spring.boot.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <spring.boot.version>2.7.11</spring.boot.version>
   </properties>
 
   <dependencyManagement>
@@ -28,7 +28,7 @@
       <dependency>
         <groupId>org.camunda.bpm</groupId>
         <artifactId>camunda-bom</artifactId>
-        <version>7.17.6-ee</version>
+        <version>7.19.1-ee</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
